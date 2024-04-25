@@ -4,15 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML_Attributes</title>
+    <style>
+        #id {
+            color: rgb(30, 145, 106);
+            font: optional;
+            font-size: medium;
+            align-items: center;
+        }
+        .lang-info {
+            color: brown;
+        }
+    </style>
 </head>
 <body>
     <! HTML_Attributes-->
     <h2>HTML Attributes</h2>
     <p>Html Attributes helps defining the behaviour of HTML elements. <br> All the HTML Attributes have two property</p>
     <ol>
-        <li>Attribute Name: It is a unique identifier that specified type of info being provided. Like id, src etc.</li>
-        <li>Attribute Value: It shows the actual data associated with attribute name.</li>
+        <li><strong>Attribute Name:</strong> It is a unique identifier that specified type of info being provided. Like id, src etc.</li>
+        <li><strong>Attribute Value:</strong> It shows the actual data associated with attribute name.</li>
     </ol>
+
+    <p>
+        Going forward we will use all the attributes, for the time being we will learn some important HTML attributes.
+        <ul>
+            <li>
+                <strong>HTML src Attribute: </strong> Allows loading image/videos/audio from a url
+                <br>
+                <img src="./resources/images/icon1.png">
+                <br>
+            </li>
+
+            <li>
+                <strong>HTML alt Attribute:</strong> Used to show something if primary content failed to load and display the value assigned to it.
+                <br>
+                <img src="./resources/images/icon1.png" alt="Web Design Icon">
+                <br>
+            </li>
+
+            <li>
+                <strong>HTML width and height Attribute:</strong> Used to adjust the width and height of image in pixels.
+                <br>
+                <img src="./resources/images/icon1.png" alt="Web Design Icon" width="100" height="80">
+                <br>
+            </li>
+
+            <li>
+                <strong>HTML id Attribute:</strong> Provides unique identification of an element. Help in case if two element have same name.
+                <br>
+                <h3 id="id">Welcome to Wed Design course using MERN stack, this text has some property defined with an id at some other place, we are using it accessing its id value</h3>
+                <br>
+            </li>
+            
+            <li>
+                <strong>HTML title Attribute:</strong> The title attribute is used to explain an element by hovering the mouse over it.
+                <br>
+                <h4 title="I am a title content">Hover to see the effect</h4>
+                <br>
+            </li>
+
+            <li>
+                <strong>HTML href Attribute:</strong> The href attribute is used to specify a link to any address. This attribute is used along with the < a > tag.
+                <br>
+                <a href="html_basic.html" target="_blank">Click to open in a different tab</a>
+                <br>
+            </li>
+
+            <li>
+                <strong>HTML style Attribute:</strong> The style attribute is used to provide various CSS effects to the HTML elements such as increasing font-size, changing font-family, coloring, etc.
+                <br>
+                <h4 style="color: blueviolet; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: medium; text-shadow: 0ch; text-decoration: overline;">This is HTML style attribute text</h4>
+                <br>
+            </li>
+
+            <li>
+                <strong>HTML lang Attribute:</strong> The language is declared with the lang attribute. Declaring a language can be important for accessibility applications and search engines.
+                <br>
+                <p lang="en" class="lang-info">Web designing using MERN Stack</p>
+                <br>
+            </li>
+
+        </ul>
+    </p>
 
 </body>
 </html>
